@@ -1,5 +1,4 @@
 <?php
-require_once "../Controller/functions.php";
 require_once "../Controller/connexion.php";
 $sql = "DELETE FROM 
   `lapin` 

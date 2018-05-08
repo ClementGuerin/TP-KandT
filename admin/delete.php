@@ -24,7 +24,7 @@ head("Supprimer un lapin (" . $row["name"] . ")", true);
         <div class="col-md-12">
             <div class="alert alert-danger" role="alert">
                 <h4 class="alert-heading">Attention !</h4>
-                <p>Vous vous apprêtez à supprimer un lapin, êtes-vous certains de vouloir faire ça ? Il est encore temps de retourner à la liste. 😧</p>
+                <p>Vous vous apprêtez à supprimer <b><?=$row["name"]?></b>, êtes-vous certains de vouloir faire ça ? Il est encore temps de retourner à la liste. 😧</p>
             </div>
         </div>
 

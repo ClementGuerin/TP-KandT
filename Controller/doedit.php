@@ -1,21 +1,20 @@
 <?php
-require_once "../Controller/functions.php";
 require_once "../Controller/connexion.php";
-$sql = "SELECT 
-  id, 
-  name, 
-  color,
-  img
-FROM
-  lapin
+$sql = "UPDATE 
+  `lapin` 
+SET 
+  `name` = :name,
+  `color` = :color,
+  `img` = :img
+WHERE 
+  `id` = :id
 ;";
 $stmt = $conn->prepare($sql);
+$stmt->bindValue(':id', $_POST['id']);
+$stmt->bindValue(':name', $_POST['name']);
+$stmt->bindValue(':color', $_POST['color']);
+$stmt->bindValue(':img', $_POST['img']);
 $stmt->execute();
 errorHandler($stmt);
-head("NAME", false);
+header("Location: ../admin/index.php");
 ?>
-
-
-
-
-<?php footer();?>

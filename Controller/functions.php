@@ -12,6 +12,7 @@ function head($title = "", $breadcrumb = true) { ?>
         <meta charset="UTF-8">
         <title><?=$title?> - KandT</title>
         <link rel="stylesheet" href="../webroot/css/bootstrap.min.css">
+        <link rel="icon" type="image/png" href="../webroot/img/favicon.png" />
     </head>
     <body class="pb-5">
         <nav class="navbar navbar-dark bg-dark mb-5">
