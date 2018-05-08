@@ -1,6 +1,6 @@
 # TP-KandT
 
-TP-KandT est un projet scolaire qui consisté à réaliser un CRUD en PHP et SQL. Celui-ci permet de voir, d'ajouter, modifier et supprimer des petits lapins. 🐰
+TP-KandT est un projet scolaire qui consiste à réaliser un CRUD en PHP et SQL. Celui-ci permet de voir, d'ajouter, modifier et supprimer des petits lapins. 🐰
 
 ### Démonstration
 
